@@ -1,3 +1,4 @@
+package one.dio.gof.singleton;
 
 public class SingletonLazy {
 

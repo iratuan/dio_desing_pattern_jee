@@ -1,7 +1,7 @@
-import one.dio.gof.singleton.SingletonLazy;
-import one.dio.gof.singleton.SingletonLazyHolder;
+package one.dio.gof.singleton;
 
-public class App {
+
+public class TestSingleton {
     public static void main(String[] args) throws Exception {
         SingletonLazy lazy = SingletonLazy.getInstance();
         System.out.println(lazy);
